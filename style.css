@@ -10,3 +10,38 @@ h1 {
     font-size: 64px;
     color: white;
 }
+
+.bodyBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    border: 5px black solid;
+    width: 50vw;
+}
+
+body {
+    background-color: darkgray;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;;
+}
+
+#sections {
+    display: flex;
+    flex-direction: column;
+}
+
+a, .contact {
+    font-size: 32px;
+    color: navy;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    font-size: 18px;
+}

@@ -13,11 +13,60 @@
 
     <!-- CSS-->
     <link href="style.css" rel="stylesheet" media="all" />
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+
   </head>
 
   <body style="text-align: center;">
-    <h1>Robert Giovanini III</h1>
+    <div id="heading">
+        <h1>Robert Giovanini III</h1>
+    </div>
+    <div id="sections">
+        <div class="bodyBox" width=100vw>
+            <div class="box">
+                <h2>Resume</h2>
+                <img src="resume.png" height="400px">
+            </div>
+            <div class="box">
+                <h2>About Me</h2>
+                <p class="info">
+                    My name is Robert Giovanini III, but "Trey" is the name I prefer to go by.
+                    I graduated from Hamilton Southeastern High School in 2018.
+                    After that, I spent roughly a year and a half at Marian University studying music education before deciding to change paths.
+                    Currently, I am taking classes through Kenzie Academy, and aspire to become a software engineer.
+                    I am quite comfortable with HTML, CSS, and JavaScript, and I also have some experience with React.
+                    I am determined to reach the fullest extent of my potential as both a developer, and as a person.
+                </p>
+            </div>
+        </div>
+        <div class="bodyBox" width=100vw>
+            <div class="box">
+                <h2>Links and Contact Info</h2>
+                <div class="links">
+                    <p class="contact">
+                        <a href="https://github.com/weyr0827">GitHub: weyr0827</a>
+                        </br>
+                        Email: weyr0827@gmail.com
+                        </br>
+                        Phone: 317-900-3536
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Projects</h2>
+                <div class="links">
+                    <a href="https://weyr0827.github.io/Pokedex/index.html">Pokémon Pokédex Application</a>
+                    <img src="pokedexApp.png" width="300px">
+                    <p class="info">
+                        This was a personal project I created based on the Pokémon video game franchise.
+                        I used arrays of objects to display each individal Pokédex entry, and used the filter method to implement a search feature.
+                        There is also a special feature that changes the background color of the entire page when a specific keyword is entered in the 'Type' field.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="code.js"></script>
   </body>
 </html>
